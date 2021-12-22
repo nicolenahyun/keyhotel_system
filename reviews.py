@@ -5,7 +5,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.chrome.options import Options
 
-import method       # method.py가 같은 폴더에 있어야 됩니당
+import method       # method.py가 같은 폴더에 있어야 한다.
 
 ## 여기 이전에 했던 거처럼 0~8번 자동으로 넣어주게 해도 좋아요. 이거는 숫자 일일이 넣어야 됩니다.
 num = int(input('input number : '))
